@@ -38,7 +38,6 @@
   '(progn
      (defun prelude-php-mode-defaults ()
        (setq c-auto-newline t)
-       (c-toggle-auto-state)
        (auto-complete-mode))
      (setq prelude-php-mode-hook 'prelude-php-mode-defaults)
      (add-hook 'php-mode-hook (lambda () (run-hooks 'prelude-php-mode-hook)))))

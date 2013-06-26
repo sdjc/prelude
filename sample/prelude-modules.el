@@ -16,6 +16,9 @@
 ;; (require 'prelude-mediawiki)
 (require 'prelude-org)
 (require 'prelude-perl)
+(require 'prelude-php)
+(require 'prelude-go)
+
 ;; (require 'prelude-python)
 (require 'prelude-ruby)
 ;; (require 'prelude-scala)
