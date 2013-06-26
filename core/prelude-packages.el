@@ -41,13 +41,13 @@
 (package-initialize)
 
 
-;ido-ubiquitous
+;;ido-ubiquitous
 
 (defvar prelude-packages
   '(ace-jump-mode ack-and-a-half dash diminish elisp-slime-nav
     expand-region flycheck gist
     git-commit-mode gitconfig-mode gitignore-mode
-    guru-mode helm helm-projectile ido-ubiquitous
+    guru-mode helm helm-projectile
     key-chord magit melpa rainbow-mode
     smex solarized-theme undo-tree
     volatile-highlights yasnippet zenburn-theme)
