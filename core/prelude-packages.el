@@ -40,6 +40,9 @@
 (setq package-user-dir (expand-file-name "elpa" prelude-dir))
 (package-initialize)
 
+
+;ido-ubiquitous
+
 (defvar prelude-packages
   '(ace-jump-mode ack-and-a-half dash diminish elisp-slime-nav
     expand-region flycheck gist

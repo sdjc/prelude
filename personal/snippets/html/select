@@ -1,0 +1,5 @@
+#name : select
+#key : fs
+#group : form.select
+# --
+Form::select('post[${1:}]',o_to_r('$1','${2:}')) 

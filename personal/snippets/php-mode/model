@@ -1,0 +1,1 @@
+#contributor : Ji Cheng#name : <?class  ?>#group : laravel.model # --class ${1:`(capitalize ((lambda (a)   (substring a 0 (let ((case-fold-search nil))                   ( string-match "\\." a)                  ))   ) (file-name-sans-extension (buffer-name)) ))`} extends Eloquent {  public static $timestamps=false;  //public static $table='${1}s';  $0}

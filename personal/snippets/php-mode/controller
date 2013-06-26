@@ -1,0 +1,71 @@
+#contributor : Ji Cheng
+#name : controller 
+#group : laravel.controller 
+# --
+class ${1:`(capitalize ((lambda (a)
+   (substring a 0 (let ((case-fold-search nil))
+                   ( string-match "\\." a)
+                  ))
+   )
+ (file-name-sans-extension (buffer-name))
+ ))`}_Controller extends Base_Controller
+{
+  public $restful = true;
+
+  public function get_index($id=0)
+  {
+    $fzs=$1::order_by('id','desc')->paginate(20);
+    return View::make('$1.index')->with('fzs',$fzs)->with ('id',$id);    
+  }
+  public function get_edit($a,$id)
+  {
+    $fz=$1::find($id);
+    if ($fz)
+    {
+      return View::make('$1.edit')->with('fz',$fz);;
+    }
+  }
+  public function get_add()
+  {
+    return View::make("$1.add");
+  }
+
+  public function post_add()
+  {
+    $a=new $1;
+    $a->fill(Input::get());
+    $a->save();
+    return Response::json(array('message' => '操作成功','statusCode'=>'200'));
+  }
+
+  public function post_edit($d,$id)
+  {
+    if ($id)
+    {
+      $a= $1::update($id,Input::get());;
+      if ($a)
+      {
+        return Response::json(array('message' => '操作成功','statusCode'=>'200'));
+      }
+      else
+      return Response::json(array('message' => '操作失败','statusCode'=>'200'));
+    }
+    else
+    return Response::json(array('message' => '违法的操作','statusCode'=>'300'));
+  }
+  public function post_del($a ,$id)
+  {    
+    $delete_id = $1::find($id);
+    if ($delete_id)
+    {
+      $delete_id->delete();
+      return Response::json(array('message' => '操作成功','statusCode'=>'200'));
+    }
+    else
+    return Response::json(array('message' => '错误id','statusCode'=>'200'));
+  }
+  $0
+
+
+  $0
+}

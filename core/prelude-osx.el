@@ -40,7 +40,7 @@
 
 ;; It's all in the Meta
 (setq mac-command-modifier 'meta)
-(setq mac-option-modifier 'meta)
+(setq mac-option-modifier 'super)
 
 (defun prelude-swap-meta-and-super ()
   "Swap the mapping of Meta and Super.
@@ -60,6 +60,7 @@ Windows external keyboard from time to time."
 (define-key prelude-mode-map (kbd "C-c w") 'prelude-swap-meta-and-super)
 
 (menu-bar-mode +1)
+
 
 (provide 'prelude-osx)
 ;;; prelude-osx.el ends here
