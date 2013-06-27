@@ -31,10 +31,8 @@
        (auto-complete-mode 1)
        (setq indent-tabs-mode t)
        (add-to-list 'ac-sources 'ac-source-go)
-       (setq flycheck-check-syntax-automatically '(save
-                                                   new-line
-                                                   mode-enabled))
-       (flyspell-mode-off)
+       (setq flycheck-check-syntax-automatically '(save ))
+       (flycheck-stop-checker)
        (whitespace-turn-off)
        (make-local-variable 'outline-regexp)
        (setq outline-regexp "//\\.\\|//[^\r\n\f][^\r\n\f]\\|pack\\|func\\|impo\\|cons\\|var.\\|type\\|\t\t*...."))
