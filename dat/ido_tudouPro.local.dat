@@ -1,0 +1,191 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/tudou/www/cw/public/" . "js/")
+ ("/Users/tudou/.emacs.d/elpa/archives/" . "melpa/")
+ ("/Users/tudou/.emacs.d/elpa/" . "go-autocomplete-20130617.2214/")
+ ("/Users/tudou/Documents/book/" . "0526/")
+ ("/Users/tudou/Documents/" . "book/")
+ ("/Users/tudou/www/cw/application/views/" . "Em_Population/")
+ ("/Users/tudou/www/cw/application/" . "controllers/")
+ ("/Users/tudou/.emacs.d/" . "sample/")
+ ("/Users/tudou/www/cw/" . "public/")
+ ("/Users/tudou/www/" . "cw/")
+ ("/Users/tudou/Applications/MacVim.app/Contents/Frameworks/PSMTabBarControl.framework/" . "Headers/")
+ ("/Users/tudou/Applications/MacVim.app/Contents/Frameworks/" . "PSMTabBarControl.framework/")
+ ("/Users/tudou/Applications/MacVim.app/Contents/" . "Frameworks/")
+ ("/Users/tudou/Applications/MacVim.app/" . "Contents/")
+ ("/Users/tudou/Applications/Emacs.app/Contents/" . "MacOS/")
+ ("/Users/tudou/Applications/Emacs.app/" . "Contents/")
+ ("/Users/tudou/Applications/" . "MacVim.app/")
+ ("/Users/tudou/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tudou/.emacs.d/sample/"
+ "/Users/tudou/.emacs.d/"
+ "/Users/tudou/.emacs.d/core/"
+ "/Users/tudou/.emacs.d/elpa/go-autocomplete-20130617.2214/"
+ "/Users/tudou/.emacs.d/personal/"
+ "/Users/tudou/"
+ "/Users/tudou/.emacs.d/elpa/multiple-cursors-20130608.1031/"
+ "/Users/tudou/.emacs.d/themes/"
+ "/Users/tudou/www/"
+ "/Users/tudou/.emacs.d/modules/"
+ "/Users/tudou/.emacs.d/elpa/ido-ubiquitous-20121214.2145/"
+ "/Users/tudou/www/cw/public/"
+ "/Users/tudou/.emacs.d/vendor/"
+ "/Users/tudou/.emacs.d/elpa/goto-last-change-20121115.1014/"
+ "/Users/tudou/.emacs.d/elpa/archives/melpa/"
+ "/Users/tudou/.emacs.d/elpa/archives/gnu/"
+ "/Users/tudou/.emacs.d/elpa/yasnippet-20130505.2115/"
+ "/Users/tudou/www/cw/application/"
+ "/Users/tudou/www/cw/"
+ "/Users/tudou/Documents/book/0526/"
+ "/Users/tudou/.emacs.d/elpa/dropdown-list-20120329.1636/"
+ "/Users/tudou/Documents/"
+ "/Users/tudou/www/cw/application/views/Em_Population/"
+ "/Users/tudou/.emacs.d/elpa/tagedit-20130514.1551/"
+ "/Users/tudou/.emacs.d/elpa/ace-jump-mode-20121104.1157/"
+ "/Users/tudou/.emacs.d/elpa/indent-guide-20130521.29/"
+ "/Users/tudou/www/cw/application/controllers/"
+ "/Users/tudou/.emacs.d/elpa/phi-search-20130428.2235/"
+ "/Users/tudou/.emacs.d/elpa/php-mode-20130515.1101/"
+ "~/.emacs.d/core/"
+ "/Users/tudou/Documents/.emacs.d/"
+ "/Users/tudou/Applications/MacVim.app/Contents/Frameworks/PSMTabBarControl.framework/Headers/"
+ "/Users/tudou/Applications/Emacs.app/Contents/MacOS/"
+ "/Users/tudou/Applications/Emacs.app/Contents/Resources/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init_old.el"
+ "init.el"
+ "prelude-packages.el"
+ "go-autocomplete.el"
+ "prelude-modules.el"
+ ".emacs"
+ "mc-cycle-cursors.el"
+ ".mc-lists.el"
+ "moe-dark-theme.el"
+ "prelude-editor.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tudou/.emacs.d/" (20940 20002 0 0) "vendor/" "var/" "utils/" "themes/" "snippets/" "savefile/" "sample/" "README.md" "projectile-bookmarks.eld" "personal/" "modules/" "init.elc" "init.el" "eshell/" "elpa/" "ede-projects.el" "dat/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".projectile" ".mc-lists.el" ".gitignore" ".git/" ".#init.el" "../" "./")
+
+ ("/Users/tudou/" (20940 19974 0 0) "www/" "RADPAServer/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "goprojects/" "Downloads/" "Documents/" "Desktop/" "code/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile" ".zcompdump" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viper" ".vimrc" ".viminfo" ".vim-fuf-data/" ".vim/" ".Trash/" ".tmux.conf" ".taskrc" ".task/" ".subversion/" ".ssh/" ".smex-items" ".shoes/" ".session" ".scala_history" ".sbt/" ".rvm/" ".rnd" ".recentf" ".pearrc" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".m2/" ".local/" ".lighttable/" ".lein/" ".java_history" ".irb-history" ".ido.last" ".gitmodules" ".gitignore" ".git/" ".gemrc" ".gem/" ".fontconfig/" ".esup-results.el" ".emacs.d/" ".emacs" ".DS_Store" ".cpan/" ".config/" ".composer/" ".CFUserTextEncoding" ".carton/" ".cache/" ".bashrc" ".bash_profile" ".bash_history" "../" "./")
+
+ ("/Users/tudou/Downloads/" (20939 3956 0 0) "黑红风格简历.doc" "警务信息管理系统用户手册.doc" "社区警务信息综合管理平台/" "杰科GK-HD330固件 20130416版.rar" "新浪内部对腾讯公司的深度解析.pdf" "文件编码转换.zip" "文件编码转换.app/" "安卓软件包/" "函数式编程之Clojure.pdf" "XQuartz-2.7.4.dmg" "xh.GHO" "Writing+GNU+Emacs+Extensions.pdf" "world_conqueror_2_v1.1.0k.zip" "wkaliedit.dmg" "Wireshark 1.8.7 Intel 64.dmg" "WineBottlerCombo_1.5.31.dmg" "Transmit.app/" "Thunder1.1.4.392_Beta.dmg" "Tanks-Evolution-1-2.zip" "tangram-demos.zip" "sqjw.zip" "Soulver.dmg" "shoes-3.1.0.dmg" "Ruby+on+Rails+Tutorial中文版_IT168文库.pdf" "rspec-101-sample.pdf" "RemoteDesktopClient.dmg" "Remember1.1.zip" "redsn0w_mac_0.9.15b3.zip" "redsn0w_mac_0.9.15b3/" "RealStudio2012r21.dmg" "Real Studio 2012 Release 2-www.isofts.org-www.softinn.org.zip Folder/" "Real Studio 2012 Release 2-www.isofts.org-www.softinn.org.zip" "railstutorial2ndcn.epub" "rails-101.pdf" "rails-101.mobi" "RADPAServerXE4.pkg" "QQ_V2.4.1.dmg" "php5.3-201304150630.tar.tar.bz2" "php-5.3.15.tar.tar.bz2" "OpenEmu.1.0.0b9.zip" "Openbiz-Cubi-Lite-3.0.9.zip" "Openbiz-Cubi-Lite-3.0.9/" "openbiz-core-3.1.0.tar.tar.gz" "openbiz-core/" "opa-1.1.1.dmg" "OnyX.dmg" "Nessus-5.2.1.dmg.gz" "Nessus-.dmg" "ncce-ce.eudic" "Mou.zip" "Mou.app/" "mmm-mode-20130606.7.tar" "mmm-mode-20130606.7/" "MC Domination.app/" "MacX.cn.dmg" "Lyn 1.2.10-www.isofts.org-www.softinn.org.zip" "Little Snitch 3.0.1.dmg" "LightTableMac.zip" "LightTable.app/" "laravel-laravel-v3.2.14-75-gcffded6.zip" "laravel-laravel-cffded6/" "Language_Switcher_1_1_7.dmg" "ken0925_by_m-team.avi" "kb_61.133.107.9.txt" "iPhone3,1_5.1.1_9B206_Restore.ipsw" "iPhone3,1_4.3_8F190_Restore.ipsw" "iOSOpenDev-1.5.pkg" "install.img" "iHaxGamez1.6.1.dmg" "ifunboxmac.dmg" "ies4osxwine.zip" "IceFloor.app/" "icefloor-1.1.zip" "helm-rails-20130424.1719.el" "HD330-20130521.rar" "HD330-20130521/" "Hands Off!.dmg" "guile-emacs.tar.tar.bz2" "guile-emacs/" "GNU Emacs Lisp编程入门.pdf" "GK-HD330-20130428.rar" "GK-HD330-20120413A.rar" "Firefox-latest.dmg" "Evoland.MacOSX-F4CG.zip" "Evoland.MacOSX-F4CG/" "emacs_7x9.pdf" "elisp.pdf" "dwz-user-guide.chm" "Dungeon Siege 2 Deluxe Edition.dmg" "Dungeon Hunter Alliance.zip.td.cfg" "Dungeon Hunter Alliance.zip.td" "Dungeon Hunter Alliance.app/" "doo-1.4.1.zip" "Documents/" "DictUnifier-2.1.zip" "DeathSpank Thongs of Virtue.zip" "DeathSpank Thongs of Virtue/" "CodeKit.dmg" "CodeKit.1.dmg" "CocosBuilder-2.1.zip" "Clojure简介与应用.pdf" "Chocolat 1.6.2-www.isofts.org-www.softinn.org.zip" "ChameleonSSDOptimizer.zip" "Chameleon SSD Optimizer.app/" "ccc-3.5.2.zip" "CarbonCopyCloner341.dmg" "Carbon Copy Cloner.dmg" "Carbon Copy Cloner.app/" "bootstrap.zip" "BookReader.dmg" "BookReader.1.dmg" "bee_SDK_0_3_0.zip" "Battlefield 1942.torrent.zip" "bamenshenqi_iphone.rar" "appdl.net_Trant433.zip" "Appdl.Net_Mk14.zip" "appdl.net_LS301.zip" "Appdl.Net_HanOff207.zip" "Appdl.Net_Djb231.zip" "Appdl.Net_CodK162.zip" "Appdl.Net_CodeK161.zip" "appdl.net_CCC352.zip" "Appdl.Net_BRer45.zip" "Appdl.Net_Alf203.zip" "Appdl.Net_Aco404.zip" "Appdl.net_Aco402.zip" "angular.min.js" "Alfred for mac  2.0.5[7do.net].zip" "Alfred 2.dmg" "Acorn.dmg" "951heyzo_hd_0008_full.mp4" "6heyzo_hd_0056_full.mp4" "6042413-319-carib-whole_hd1.wmv" "5heyzo_hd_0296_full.mp4" "51CTO下载-PHP自定义通用表单系统.rar" "4heyzo_hd_0293_full.mp4" "487123012-223-carib-whole_hd1.wmv" "48.doc" "4012313-245-carib-whole_hd1.wmv" "365888ff-nana_hd.wmv" "28746ii-heyzo_hd_0282_full.mp4" "270u/" "2561213_01-10mu-whole1_hd.wmv" "25060413_603-1pon-whole1_hd.avi" "241212_291-caribpr-whole1_hd.wmv" "2032113-293-carib-whole_hd1.wmv" "2013061714590279166.doc" "2-w_a_mari_fhd.mp4" "16051113-335-carib-whole_hd1.wmv" "130508_656_01-HD.wmv" "12060513_01-10mu-whole1_hd.wmv" ".localized" ".DS_Store" ".com.google.Chrome.stOKpj" "../" "./")
+
+ ("/Users/tudou/.emacs.d/core/" (20940 19024 0 0) "prelude-ui.el" "prelude-packages.el" "prelude-osx.el" "prelude-mode.el" "prelude-global-keybindings.el" "prelude-editor.el" "prelude-core.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/modules/" (20940 15944 0 0) "prelude-xml.el" "prelude-scss.el" "prelude-scheme.el" "prelude-scala.el" "prelude-ruby.el" "prelude-python.el" "prelude-programming.el" "prelude-php.el" "prelude-perl.el" "prelude-org.el" "prelude-mediawiki.el" "prelude-markdown.el" "prelude-lisp.el" "prelude-latex.el" "prelude-js.el" "prelude-haskell.el" "prelude-go.el" "prelude-erlang.el" "prelude-erc.el" "prelude-emacs-lisp.el" "prelude-css.el" "prelude-common-lisp.el" "prelude-coffee.el" "prelude-clojure.el" "prelude-c.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/sample/" (20940 18567 0 0) "prelude-modules.el" "init_old.el" "init.elc" "init.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/personal/" (20940 18473 0 0) "snippets/" "prelude-modules.el" "custom.el" ".gitkeep" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/go-autocomplete-20130617.2214/" (20939 4572 0 0) "go-autocomplete.el" "go-autocomplete-pkg.elc" "go-autocomplete-pkg.el" "go-autocomplete-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/" (20939 4106 0 0) "zencoding-mode-20111231.345/" "zenburn-theme-20130516.1612/" "yasnippet-20130505.2115/" "yari-20130609.1435/" "web-mode-20130506.2246/" "volatile-highlights-20130321.2241/" "undo-tree-20130516.8/" "switch-window-20121102.1529/" "solarized-theme-20130516.958/" "smex-20130421.2153/" "skewer-mode-20130605.1217/" "simple-httpd-20130527.1257/" "scss-mode-20121203.127/" "s-20130514.1942/" "ruby-tools-20121008.1851/" "ruby-end-20130426.909/" "ruby-compilation-20130429.1411/" "rinari-20130616.957/" "rainbow-mode-0.8/" "rainbow-delimiters-20130307.340/" "projectile-20130520.1447/" "powerline-20130511.1749/" "popup-20130324.1305/" "php-mode-20130524.1458/" "phi-search-20130623.1237/" "pcache-20120408.1206/" "paredit-20130407.1708/" "multiple-cursors-20130608.1031/" "multi-web-mode-20130205.2044/" "melpa-20120202.1322/" "markdown-mode-20130328.918/" "magit-20130520.128/" "logito-20120225.2155/" "key-chord-20080915.2156/" "jump-20121016.1203/" "js2-mode-20130619.1123/" "inflections-20121016.957/" "inf-ruby-20130620.1746/" "indent-guide-20130521.29/" "ido-ubiquitous-20121214.2145/" "helm-projectile-20130430.1459/" "helm-20130518.645/" "guru-mode-20121016.1452/" "goto-last-change-20121115.1014/" "go-mode-20130523.1019/" "go-autocomplete-20130617.2214/" "gitignore-mode-20130506.924/" "gitconfig-mode-20130506.924/" "git-commit-mode-20130512.1936/" "gist-20130315.2306/" "gh-20130318.2210/" "flycheck-20130518.1449/" "findr-20130127.2032/" "expand-region-20130509.9/" "exec-path-from-shell-20130430.1019/" "esup-20130602.1703/" "elisp-slime-nav-20130322.930/" "dropdown-list-20120329.1636/" "diminish-20091203.1912/" "dash-20130513.1618/" "auto-complete-20130503.2013/" "archives/" "alert-20130510.912/" "ack-and-a-half-20130204.1838/" "ace-jump-mode-20121104.1157/" "ac-js2-20130619.1934/" "../" "./")
+
+ ("/Users/tudou/www/" (20939 6644 0 0) "xh.gho" "test/" "saagood/" "pp/" "laravel4/" "laravel-develop/" "laravel/" "end-to-end-with-angularjs/" "doophp.cms/" "develop.zip" "demo" "dddd/" "cw/" "12.go" ".DS_Store" ".#12.go" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/multiple-cursors-20130608.1031/" (20915 12135 0 0) "rectangular-region-mode.elc" "rectangular-region-mode.el" "multiple-cursors.elc" "multiple-cursors.el" "multiple-cursors-pkg.elc" "multiple-cursors-pkg.el" "multiple-cursors-core.elc" "multiple-cursors-core.el" "multiple-cursors-autoloads.el" "mc-separate-operations.elc" "mc-separate-operations.el" "mc-mark-pop.elc" "mc-mark-pop.el" "mc-mark-more.elc" "mc-mark-more.el" "mc-edit-lines.elc" "mc-edit-lines.el" "mc-cycle-cursors.elc" "mc-cycle-cursors.el" "../" "./")
+
+ ("~/.emacs.d/core/" (20938 61188 0 0) "prelude-ui.el" "prelude-packages.el" "prelude-osx.el" "prelude-mode.el" "prelude-global-keybindings.el" "prelude-editor.el" "prelude-core.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/archives/gnu/" (20938 60962 0 0) "archive-contents" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/archives/melpa/" (20938 60965 0 0) "archive-contents" "../" "./")
+
+ ("/Users/tudou/.emacs.d/themes/" (20938 62458 0 0) "moe-dark-theme.el" ".gitkeep" "../" "./")
+
+ ("/Users/tudou/www/cw/application/views/Em_Population/" (20928 65058 0 0) "show.blade.php" "index.blade.php" "edit.blade.php" "add.blade.php" "111.html" "../" "./")
+
+ ("/Users/tudou/Documents/" (20938 60317 0 0) "报告/" "实用Common.Lisp编程[www.TopSage.com].zip Folder/" "临时住宿登记表.pages" "zenburn-theme.el" "test.db" "ss.org" "Scala编程%28中文版%29.pdf" "RDC Connections/" "Pixelmator.dmg" "main.sql" "LanguageReference.pdf" "kkk/" "imgtransfer.png" "game/" "elisp入门.pdf" "dwz-user-guide.pdf" "Documents/" "Doc1.pages" "dict/" "book/" "1Password.agilekeychain/" "13年安全防护培训材料/" ".localized" ".emacs.d/" ".DS_Store" "../" "./")
+
+ ("/Users/tudou/www/cw/public/" (20936 29185 0 0) "uploadimg/" "uploadify/" "tt.html" "themes/" "plugins/" "maptile/" "mapfiles/" "mapapi3.8.6.js" "map.htm" "laravel/" "js/" "index.php" "img/" "gstatic/" "google.js" "google.htm" "favicon.ico" "dwz.frag.xml" "demo/" "data/" "css/" "chart/" "bundles/" "bootstrap/" "adminer.php" "12.js" ".htaccess" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/ido-ubiquitous-20121214.2145/" (20938 43024 0 0) "ido-ubiquitous.elc" "ido-ubiquitous.el" "ido-ubiquitous-pkg.elc" "ido-ubiquitous-pkg.el" "ido-ubiquitous-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/vendor/" (20936 30845 0 0) "textobjects.el" "rename-sgml-tag.el" ".gitkeep" "../" "./")
+
+ ("/Users/tudou/www/cw/public/js/" (20881 39787 0 0) "speedup.js" "rails.js" "poi.js" "mdialog.js" "mapscript.js" "map.js" "jquery.validate.min.js" "jquery.validate.js" "jquery.mapit.min.js" "jquery.easing.1.3.js" "jquery.cookie.js" "jquery.bgiframe.js" "jquery-ui.min.js" "jquery-1.7.2.min.js" "jquery-1.7.2.js" "index.js" "global.js" "exz.js" "dwz.validate.method.js" "dwz.util.number.js" "dwz.util.date.js" "dwz.ui.js" "dwz.tree.js" "dwz.theme.js" "dwz.taskBar.js" "dwz.tab.js" "dwz.switchEnv.js" "dwz.stable.js" "dwz.sortDrag.js" "dwz.scrollCenter.js" "dwz.resize.js" "dwz.regional.zh.js" "dwz.print.js" "dwz.panel.js" "dwz.pagination.js" "dwz.navTab.js" "dwz.history.js" "dwz.effects.js" "dwz.drag.js" "dwz.dialogDrag.js" "dwz.dialog.js" "dwz.datepicker.js" "dwz.database.js" "dwz.cssTable.js" "dwz.core.js" "dwz.contextmenu.js" "dwz.combox.js" "dwz.checkbox.js" "dwz.barDrag.js" "dwz.alertMsg.js" "dwz.ajax.js" "dwz.accordion.js" "cw.class.js" "bootstrap.min.js" "bootstrap.js" "additional-methods.js" ".gitignore" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.3/share/emacs/24.3/lisp/textmodes/" (20928 64837 0 0) "underline.elc" "underline.el.gz" "two-column.elc" "two-column.el.gz" "tildify.elc" "tildify.el.gz" "text-mode.elc" "text-mode.el.gz" "texnfo-upd.elc" "texnfo-upd.el.gz" "texinfo.elc" "texinfo.el.gz" "texinfmt.elc" "texinfmt.el.gz" "tex-mode.elc" "tex-mode.el.gz" "table.elc" "table.el.gz" "sgml-mode.elc" "sgml-mode.el.gz" "rst.elc" "rst.el.gz" "remember.elc" "remember.el.gz" "reftex.elc" "reftex.el.gz" "reftex-vars.elc" "reftex-vars.el.gz" "reftex-toc.elc" "reftex-toc.el.gz" "reftex-sel.elc" "reftex-sel.el.gz" "reftex-ref.elc" "reftex-ref.el.gz" "reftex-parse.elc" "reftex-parse.el.gz" "reftex-index.elc" "reftex-index.el.gz" "reftex-global.elc" "reftex-global.el.gz" "reftex-dcr.elc" "reftex-dcr.el.gz" "reftex-cite.elc" "reftex-cite.el.gz" "reftex-auc.elc" "reftex-auc.el.gz" "refill.elc" "refill.el.gz" "refer.elc" "refer.el.gz" "refbib.elc" "refbib.el.gz" "po.elc" "po.el.gz" "picture.elc" "picture.el.gz" "paragraphs.elc" "paragraphs.el.gz" "page.elc" "page.el.gz" "page-ext.elc" "page-ext.el.gz" "nroff-mode.elc" "nroff-mode.el.gz" "makeinfo.elc" "makeinfo.el.gz" "ispell.elc" "ispell.el.gz" "flyspell.elc" "flyspell.el.gz" "fill.elc" "fill.el.gz" "enriched.elc" "enriched.el.gz" "dns-mode.elc" "dns-mode.el.gz" "css-mode.elc" "css-mode.el.gz" "conf-mode.elc" "conf-mode.el.gz" "bibtex.elc" "bibtex.el.gz" "bibtex-style.elc" "bibtex-style.el.gz" "bib-mode.elc" "bib-mode.el.gz" "artist.elc" "artist.el.gz" "../" "./")
+
+ ("/Users/tudou/Documents/book/06/" (20933 52109 0 0) "锦衣卫.txt" "邪魔妖道.txt" "超弦空间.txt" "白中仙的修道生涯.txt" "玄女经2.txt" "物理高材修仙记.txt" "武帝弑神.txt" "横扫荒宇.txt" "御道.txt" "异域求生日记.txt" "圣黄.txt" "劫师.txt" "2013062005.txt" ".#2013062005.txt" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/goto-last-change-20121115.1014/" (20912 40648 0 0) "goto-last-change.elc" "goto-last-change.el" "goto-last-change-pkg.elc" "goto-last-change-pkg.el" "goto-last-change-autoloads.el" "../" "./")
+
+ ("/Users/tudou/www/cw/application/controllers/" (20902 56626 0 0) "tfrom.php" "test.php" "showmap.php" "renyuanjibenxinxi.php" "ren_level.php" "ren.php" "map.php" "linshi.php" "jiuxiaochangshuo.php" "home.php" "form.php" "fangwu.php" "estate.php" "em_population.php" "educational.php" "city.php" "changzhu.php" "changsuo.php" "base.php" "ajax.php" "actype.php" "accommodation.php" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/indent-guide-20130521.29/" (20901 37605 0 0) "indent-guide.elc" "indent-guide.el" "indent-guide-pkg.elc" "indent-guide-pkg.el" "indent-guide-autoloads.el" "../" "./")
+
+ ("/Users/tudou/Documents/book/0526/" (20915 55950 0 0) "遮天.txt" "造神.txt" "逐鹿.txt" "超级武技.txt" "葬神空间.txt" "战神变.txt" "大宇宙时代.txt" "国王万岁.txt" "../" "./")
+
+ ("/Users/tudou/www/cw/" (20920 15821 0 0) "场所_房屋_人口.pages" "入户/" "九小场所基本情况.doc" "临时住宿登记表.doc" "storage/" "readme.md" "public/" "paths.php" "laravel/" "Doc1.doc" "bundles/" "artisan" "application/" "12.php" ".htaccess" ".git/" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/yasnippet-20130505.2115/snippets/emacs-lisp-mode/" (20890 13486 0 0) "yes-or-no-p.yasnippet" "y-or-n-p.yasnippet" "x-word-or-region.yasnippet" "x-traverse_dir.yasnippet" "x-grabthing.yasnippet" "x-grabstring.yasnippet" "x-find-replace.yasnippet" "x-file.read-lines.yasnippet" "x-file.process.yasnippet" "x-dired.process_marked.yasnippet" "with-current-buffer.yasnippet" "widget-get.yasnippet" "while.yasnippet" "when.yasnippet" "vector.yasnippet" "unless.yasnippet" "thing-at-point.yasnippet" "substring.yasnippet" "stringp.yasnippet" "string=.yasnippet" "string.yasnippet" "string-to-number.yasnippet" "string-match.yasnippet" "split-string.yasnippet" "skip-chars-forward.yasnippet" "skip-chars-backward.yasnippet" "setq.yasnippet" "set.yasnippet" "set-mark.yasnippet" "set-file-modes.yasnippet" "set-buffer.yasnippet" "search-forward.yasnippet" "search-forward-regexp.yasnippet" "search-backward.yasnippet" "search-backward-regexp.yasnippet" "save-excursion.yasnippet" "save-buffer.yasnippet" "require.yasnippet" "replace-regexp.yasnippet" "replace-regexp-in-string.yasnippet" "repeat.yasnippet" "rename-file.yasnippet" "region-end.yasnippet" "region-beginning.yasnippet" "region-active-p.yasnippet" "re-search-forward.yasnippet" "re-search-backward.yasnippet" "put.yasnippet" "push.yasnippet" "progn.yasnippet" "print.yasnippet" "princ.yasnippet" "point.yasnippet" "point-min.yasnippet" "point-max.yasnippet" "or.yasnippet" "number-to-string.yasnippet" "null.yasnippet" "nth.yasnippet" "not.yasnippet" "message.yasnippet" "memq.yasnippet" "match-string.yasnippet" "match-end.yasnippet" "match-beginning.yasnippet" "mapcar.yasnippet" "mapc.yasnippet" "make-local-variable.yasnippet" "make-directory.yasnippet" "looking-at.yasnippet" "list.yasnippet" "line-end-position.yasnippet" "line-beginning-position.yasnippet" "let.yasnippet" "length.yasnippet" "lambda.yasnippet" "kill-buffer.yasnippet" "kbd.yasnippet" "interactive.yasnippet" "insert.yasnippet" "insert-file-contents.yasnippet" "if.yasnippet" "goto-char.yasnippet" "global-set-key.yasnippet" "get.yasnippet" "function.yasnippet" "funcall.yasnippet" "forward-line.yasnippet" "forward-char.yasnippet" "format.yasnippet" "find-file.yasnippet" "file-relative-name.yasnippet" "file-name-sans-extension.yasnippet" "file-name-nondirectory.yasnippet" "file-name-extension.yasnippet" "file-name-directory.yasnippet" "fboundp.yasnippet" "f.yasnippet" "expand-file-name.yasnippet" "error.yasnippet" "equal.yasnippet" "eq.yasnippet" "end-of-line.yasnippet" "dolist.yasnippet" "directory-files.yasnippet" "delete-region.yasnippet" "delete-file.yasnippet" "delete-directory.yasnippet" "delete-char.yasnippet" "defvar.yasnippet" "defun.yasnippet" "defsubst.yasnippet" "define-key.yasnippet" "defcustom.yasnippet" "defalias.yasnippet" "custom-autoload.yasnippet" "current-buffer.yasnippet" "copy-file.yasnippet" "copy-directory.yasnippet" "consp.yasnippet" "cons.yasnippet" "condition-case.yasnippet" "cond.yasnippet" "concat.yasnippet" "cdr.yasnippet" "car.yasnippet" "buffer-substring.yasnippet" "buffer-substring-no-properties.yasnippet" "buffer-modified-p.yasnippet" "buffer-file-name.yasnippet" "bounds-of-thing-at-point.yasnippet" "beginning-of-line.yasnippet" "backward-char.yasnippet" "autoload.yasnippet" "assq.yasnippet" "aset.yasnippet" "aref.yasnippet" "apply.yasnippet" "append.yasnippet" "and.yasnippet" "add-hook.yasnippet" ".yas-parents" ".read_me" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/archives/" (20890 13375 0 0) "melpa/" "gnu/" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/yasnippet-20130505.2115/" (20914 4810 0 0) "yasnippet.elc" "yasnippet.el" "yasnippet-pkg.elc" "yasnippet-pkg.el" "yasnippet-autoloads.el~" "yasnippet-autoloads.el" "snippets/" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/switch-window-20121102.1529/" (20923 11763 0 0) "switch-window.elc" "switch-window.el" "switch-window-pkg.elc" "switch-window-pkg.el" "switch-window-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/projectile-20130520.1447/" (20890 13445 0 0) "projectile.elc" "projectile.el" "projectile-pkg.elc" "projectile-pkg.el" "projectile-autoloads.el~" "projectile-autoloads.el" "../" "./")
+
+ ("/Users/tudou/Documents/book/" (20909 58903 0 0) "06/" "0526/" "05/" "04/" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/dropdown-list-20120329.1636/" (20914 4380 0 0) "dropdown-list.elc" "dropdown-list.el" "dropdown-list-pkg.elc" "dropdown-list-pkg.el" "dropdown-list-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/tagedit-20130514.1551/" (20912 31217 0 0) "tagedit.elc" "tagedit.el" "tagedit-pkg.elc" "tagedit-pkg.el" "tagedit-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/ace-jump-mode-20121104.1157/" (20890 13377 0 0) "ace-jump-mode.elc" "ace-jump-mode.el" "ace-jump-mode-pkg.elc" "ace-jump-mode-pkg.el" "ace-jump-mode-autoloads.el~" "ace-jump-mode-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/phi-search-20130428.2235/" (20901 34953 0 0) "phi-search.elc" "phi-search.el" "phi-search-pkg.elc" "phi-search-pkg.el" "phi-search-autoloads.el" "phi-replace.elc" "phi-replace.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/php-mode-20130515.1101/" (20890 13998 0 0) "php-mode.elc" "php-mode.el" "php-mode-test.elc" "php-mode-test.el" "php-mode-pkg.elc" "php-mode-pkg.el" "php-mode-autoloads.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/elpa/expand-region-20130509.9/" (20890 13391 0 0) "web-mode-expansions.elc" "web-mode-expansions.el" "text-mode-expansions.elc" "text-mode-expansions.el" "sml-mode-expansions.el" "ruby-mode-expansions.elc" "ruby-mode-expansions.el" "python-mode-expansions.elc" "python-mode-expansions.el" "python-el-fgallina-expansions.elc" "python-el-fgallina-expansions.el" "python-el-expansions.elc" "python-el-expansions.el" "org-mode-expansions.elc" "org-mode-expansions.el" "octave-expansions.elc" "octave-expansions.el" "nxml-mode-expansions.elc" "nxml-mode-expansions.el" "latex-mode-expansions.elc" "latex-mode-expansions.el" "jsp-expansions.elc" "jsp-expansions.el" "js2-mode-expansions.elc" "js2-mode-expansions.el" "js-mode-expansions.elc" "js-mode-expansions.el" "html-mode-expansions.elc" "html-mode-expansions.el" "feature-mode-expansions.elc" "feature-mode-expansions.el" "expand-region.elc" "expand-region.el" "expand-region-pkg.elc" "expand-region-pkg.el" "expand-region-custom.elc" "expand-region-custom.el" "expand-region-core.elc" "expand-region-core.el" "expand-region-autoloads.el~" "expand-region-autoloads.el" "erlang-mode-expansions.elc" "erlang-mode-expansions.el" "er-basic-expansions.elc" "er-basic-expansions.el" "css-mode-expansions.elc" "css-mode-expansions.el" "cperl-mode-expansions.elc" "cperl-mode-expansions.el" "clojure-mode-expansions.elc" "clojure-mode-expansions.el" "cc-mode-expansions.elc" "cc-mode-expansions.el" "../" "./")
+
+ ("/Users/tudou/.emacs.d/personal/snippets/" (20878 30810 0 0) "text-mode/" "ruby-mode/" "rst-mode/" "php-mode/" "org-mode/" "markdown-mode/" "html/" "../" "./")
+
+ ("/Users/tudou/Documents/.emacs.d/" (20897 61429 0 0) "web-vcs-log.org" "var/" "url/" "tutorial/" "tramp" "snippets/" "site-lisp/" "rhtml-minor-mode/" "README" "projectile-bookmarks.eld" "places" "init.el" "init-yasnippet.elc" "init-yasnippet.el" "init-xterm.el" "init-wrap-region.elc" "init-wrap-region.el" "init-windows.elc" "init-windows.el" "init-web.elc" "init-web.el" "init-utils.elc" "init-utils.el" "init-uniquify.el" "init-themes.elc" "init-themes.el" "init-textile.el" "init-spelling.el" "init-slime.el" "init-site-lisp.el" "init-sh.el" "init-sessions.el" "init-ruby-mode.elc" "init-ruby-mode.el" "init-rinari.elc" "init-rinari.el" "init-recentf.el" "init-rails.elc" "init-rails.el" "init-python-mode.el" "init-proxies.el" "init-php.elc" "init-php.el" "init-osx-keys.elc" "init-osx-keys.el" "init-org.el" "init-nxml.elc" "init-nxml.el" "init-mmm.elc" "init-mmm.el" "init-misc.elc" "init-misc.el" "init-maxframe.elc" "init-maxframe.el" "init-marmalade.el" "init-markdown.el" "init-locales.elc" "init-locales.el" "init-lisp.el" "init-javascript.el" "init-isearch.el" "init-ido.elc" "init-ido.el" "init-ibuffer.el" "init-hippie-expand.elc" "init-hippie-expand.el" "init-haskell.el" "init-haml.el" "init-gui-frames.elc" "init-gui-frames.el" "init-growl.el" "init-git.el" "init-frame-hooks.el" "init-fonts.el" "init-flyspell.el" "init-flymake.el" "init-exec-path.el" "init-erlang.el" "init-elpa.elc" "init-elpa.el" "init-editing-utils.elc" "init-editing-utils.el" "init-dired.el" "init-darcs.el" "init-csv.el" "init-css.el" "init-crontab.el" "init-compat.elc" "init-compat.el" "init-common-lisp.el" "init-clojure.el" "init-auto-complete.elc" "init-auto-complete.el" "init-anything.elc" "init-anything.el" "eshell/" "elpa/" "custom.elc" "custom.el" "backups/" "auto-save-list/" "anything-c-adaptive-history" "ac-comphist.dat" "abbrev_defs" ".session" ".DS_Store" "../" "./")
+
+ ("/Applications/" (20880 32123 0 0) "Xcode.app/" "Utilities/" "Tools/" "Time Machine.app/" "Thunder.app/" "TextEdit.app/" "System Preferences.app/" "Stickies.app/" "Safari.app/" "Remote Desktop Connection.app/" "Reminders.app/" "QuickTime Player.app/" "QQ.app/" "Preview.app/" "Photo Booth.app/" "Notes.app/" "MPlayerX.app/" "Mission Control.app/" "Messages.app/" "Launchpad.app/" "Jack of all Tribes.app/" "iWork '09/" "iTunes.app/" "Image Capture.app/" "iFunBox.app/" "Game Center.app/" "Font Book.app/" "FaceTime.app/" "Evoland.app/" "DVD Player.app/" "Dungeon Defenders.app/" "Divvy.app/" "Dictionary.app/" "Dashboard.app/" "Dash.app/" "Contract Killer Zombies 2.app/" "Contacts.app/" "Chess.app/" "Carbon Copy Cloner.app/" "Calendar.app/" "Calculator.app/" "BookReader.app/" "Automator.app/" "App Store.app/" "AliWangwang.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/tudou/www/cw/application/views/" (20878 63195 0 0) "renyuanjibenxinxi/" "ren_level/" "ren/" "map/" "linshi/" "level/" "jiuxiaochangshuo/" "home/" "forms/" "form/" "fangwu/" "estate/" "error/" "Em_Population/" "educational/" "city/" "changzhu/" "changsuo/" "add.blade.php" "actype/" ".DS_Store" "../" "./")
+
+ ("/Users/tudou/www/cw/application/" (20890 14209 0 0) "views/" "tests/" "tasks/" "start.php" "routes.php" "models/" "migrations/" "libraries/" "language/" "controllers/" "config/" "bundles.php" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/tudou/Applications/MacVim.app/Contents/Frameworks/PSMTabBarControl.framework/Headers/" (20830 45927 0 0) "PSMTabBarControl.h" "../" "./")
+
+ ("/Users/tudou/Applications/MacVim.app/Contents/Frameworks/PSMTabBarControl.framework/" (20830 45927 0 0) "Versions/" "Resources/" "PSMTabBarControl" "Headers/" "../" "./")
+
+ ("/Users/tudou/Applications/MacVim.app/Contents/Frameworks/" (20830 45927 0 0) "PSMTabBarControl.framework/" "../" "./")
+
+ ("/Users/tudou/Applications/MacVim.app/Contents/" (20830 45927 0 0) "Resources/" "PkgInfo" "MacOS/" "Info.plist" "Frameworks/" "../" "./")
+
+ ("/Users/tudou/Applications/MacVim.app/" (20830 45927 0 0) "Contents/" "../" "./")
+
+ ("/Users/tudou/Applications/Emacs.app/Contents/MacOS/" (20830 42701 0 0) "Emacs" "../" "./")
+
+ ("/Users/tudou/Applications/Emacs.app/Contents/Resources/" (20830 42590 0 0) "English.lproj/" "Emacs.icns" "document.icns" "Credits.html" "../" "./")
+
+ ("/Users/tudou/Applications/Emacs.app/Contents/" (20830 42701 0 0) "Resources/" "PkgInfo" "MacOS/" "Info.plist" "../" "./")
+
+ ("/Users/tudou/Applications/Emacs.app/" (20830 42701 0 0) "Contents/" "../" "./")
+
+ ("/Users/tudou/Applications/" (20831 40498 0 0) "ScreenFlow.app/" "MacVim.app/" "Emacs.app/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

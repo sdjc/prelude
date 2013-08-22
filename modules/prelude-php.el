@@ -1,4 +1,8 @@
-;;; prelude-php.el
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+;;; prelude-php.el --- Emacs Prelude: A nice setup for php devs.
 ;;
 ;; Copyright © 2011-2013 Bozhidar Batsov
 ;;
@@ -11,7 +15,7 @@
 
 ;;; Commentary:
 
-;; Some basic configuration for js-mode.
+;; Some basic configuration for Ruby and Rails development.
 
 ;;; License:
 
@@ -33,14 +37,29 @@
 ;;; Code:
 
 (require 'prelude-programming)
+(require 'php-extras)
+
+;; Rake files are ruby, too, as are gemspecs, rackup files, and gemfiles.
+(add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
 
 (eval-after-load 'php-mode
   '(progn
      (defun prelude-php-mode-defaults ()
-       (setq c-auto-newline t)
-       (auto-complete-mode))
+       (setq flycheck-check-syntax-automatically '(save ))
+       ;; turn off the annoying input echo in irb
+      (php-enable-pear-coding-style)
+      (require 'multi-web-mode)
+      (zencoding-mode)
+      ;; (flycheck-stop-checker)
+      (setq mweb-default-major-mode 'html-mode)
+      (setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+                        (js-mode "<script[^>]*>" "</script>")
+                        (css-mode "<style[^>]*>" "</style>")))
+      (setq mweb-filename-extensions '("php" "htm" "html" "asp" ))
+      (multi-web-global-mode 1)
+      (subword-mode 1))
      (setq prelude-php-mode-hook 'prelude-php-mode-defaults)
-     (add-hook 'php-mode-hook (lambda () (run-hooks 'prelude-php-mode-hook)))))
+     (add-hook 'php-mode-hook (lambda ()
+                                (run-hooks 'prelude-php-mode-hook)))))
 (provide 'prelude-php)
-
-;;; prelude-php.el ends here
+;;; prelude-ruby.el ends here

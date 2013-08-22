@@ -93,6 +93,7 @@
         paredit-wrap-round
         paredit-wrap-round-from-behind
         paredit-wrap-square
+        point-to-register
         quoted-insert
         save-region-or-current-line
         sgml-delete-tag

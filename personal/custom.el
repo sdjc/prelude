@@ -21,7 +21,7 @@
   )
 
 
-(setq phi-search-limit 500)
+;; (setq phi-search-limit 500)
 
 
 
@@ -32,16 +32,16 @@
 ;; (global-set-key (kbd "C-M-r") '("phi-replace" phi-replace replace-regexp))
 ;; (global-set-key (kbd "C-M-s") '("phi-search" phi-search-backward isearch-backward-regexp))
 
-(global-set-key (kbd "C-s") 'phi-search)
-(global-set-key (kbd "C-r") 'phi-search-backward)
+;; (global-set-key (kbd "C-s") 'phi-search)
+;; (global-set-key (kbd "C-r") 'phi-search-backward)
 
-(global-set-key (kbd "M-%") 'phi-replace)
+;; (global-set-key (kbd "M-%") 'phi-replace)
 
 
-(eval-after-load "phi-search"
-  '(set-face-attribute 'phi-search-selection-face nil
-                       :background "orange")
-  )
+;; (eval-after-load "phi-search"
+;;   '(set-face-attribute 'phi-search-selection-face nil
+;;                        :background "orange")
+;;   )
 
 ;; (defun original-global-set-key (key command))
 ;; (fset 'original-global-set-key (symbol-function 'global-set-key))
@@ -120,7 +120,7 @@
  '(ansi-color-names-vector ["#3F3F3F" "#CC9393" "#7F9F7F" "#F0DFAF" "#8CD0D3" "#DC8CC3" "#93E0E3" "#DCDCCC"])
  '(blink-cursor-mode nil)
  '(column-number-mode t)
- '(custom-safe-themes (quote ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(custom-safe-themes (quote ("e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(fci-rule-color "#383838")
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
@@ -212,3 +212,9 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 (setq calendar-latitude +35.24)
 (setq calendar-longitude +115.43)
 (setq calendar-location-name "heze")
+
+(load-library "textobjects")
+(setq visible-bell nil)
+(setq ring-bell-function 'ignore)
+(global-set-key  (kbd "C-x C-b") 'fiplr-find-file)
+

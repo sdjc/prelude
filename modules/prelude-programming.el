@@ -117,7 +117,7 @@
     (flyspell-prog-mode))
   (when prelude-guru
     (guru-mode +1))
-  (prelude-enable-whitespace)
+  ;; (prelude-enable-whitespace)
   (prelude-local-comment-auto-fill)
   (prelude-add-watchwords))
 
@@ -128,6 +128,7 @@
 
 (if (fboundp 'global-flycheck-mode)
     (global-flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save))
   (add-hook 'prog-mode-hook 'flycheck-mode))
 
 (provide 'prelude-programming)

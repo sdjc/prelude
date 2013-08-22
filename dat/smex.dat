@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ eshell
+ shell
+ powerline-default-theme
+ load-theme
+ emacs-init-time
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (emacs-init-time . 2)
+ (load-theme . 2)
+ (powerline-default-theme . 1)
+ (shell . 1)
+ (eshell . 1)
+)

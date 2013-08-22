@@ -275,6 +275,11 @@ Will only occur if prelude-whitespace is also enabled."
 
 ;; load yasnippet
 (require 'yasnippet)
+(require 'dropdown-list)
+(setq yas-prompt-functions '(yas-dropdown-prompt
+                             yas-ido-prompt
+                             yas-completing-prompt))
+
 (add-to-list 'yas-snippet-dirs prelude-snippets-dir)
 (add-to-list 'yas-snippet-dirs prelude-personal-snippets-dir)
 (yas-global-mode 1)
