@@ -54,11 +54,11 @@
        (setq web-mode-css-indent-offset 2)
        (setq web-mode-code-indent-offset 4)
        (setq web-mode-disable-autocompletion t)
+       (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+       (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
        (local-set-key (kbd "RET") 'newline-and-indent))
      (setq prelude-web-mode-hook 'prelude-web-mode-defaults)
-
      (add-hook 'web-mode-hook (lambda ()
-                                 (run-hooks 'prelude-web-mode-hook)))))
-
+                                (run-hooks 'prelude-web-mode-hook)))))
 (provide 'prelude-web)
 ;;; prelude-web.el ends here

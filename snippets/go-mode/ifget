@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributer: Yusuke Tsutsumi <tsutsumi.yusuke@gmail.com>
+# name: ifget
+# key: ifget
+# description: if snippet
+# --
+if this.GetString("$1") {
+	this.Ctx.WriteString("$1")
+}
