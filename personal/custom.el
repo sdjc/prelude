@@ -1,4 +1,8 @@
-(global-set-key (kbd "C-x C-r") 'recentf-open-files)
+
+(global-set-key (kbd "C-x C-r") 'helm-recentf)
+(global-set-key (kbd "C-h b") 'helm-descbinds)
+
+
 
 (defun locale-is-utf8-p ()
   "Return t iff the \"locale\" command or environment variables prefer UTF-8."
@@ -217,4 +221,5 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 (setq visible-bell nil)
 (setq ring-bell-function 'ignore)
 (global-set-key  (kbd "C-x C-b") 'fiplr-find-file)
+(global-set-key  (kbd "M-x") 'helm-M-x)
 

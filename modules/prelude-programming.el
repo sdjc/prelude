@@ -119,6 +119,7 @@
     (guru-mode +1))
   ;; (prelude-enable-whitespace)
   (prelude-local-comment-auto-fill)
+  (ggtags-mode)
   (prelude-add-watchwords))
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
